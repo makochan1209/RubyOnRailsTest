@@ -1,5 +1,7 @@
 #routes.rbはちゃんと書かないといけない！(サーバー起動のままで更新できる)
 Rails.application.routes.draw do
+  root to: 'visitor#index'
+
   get 'visitor/about'
   get 'visitor/event'
   get 'visitor/access'
