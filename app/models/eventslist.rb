@@ -1,2 +1,0 @@
-class Eventslist < ApplicationRecord
-end
