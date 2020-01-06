@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get '*path', to: 'visitor#show'
 
+#  get 'visitor/json'
 #  get 'visitor/about'
 #  get 'visitor/event'
 #  get 'visitor/access'

@@ -1,0 +1,8 @@
+<% require "json" %>
+
+<% File.open("#{Rails.public_path}/json/featurelist.json") do |j| %>
+<% # File.open("#{Rails.root}/public/json/featurelist.json") do |j| %>
+<% # JSON.load(j) %>
+<% $json_str = JSON.load(j)%>
+<% end %>
+<%= $json_str[1]["name"] %>
